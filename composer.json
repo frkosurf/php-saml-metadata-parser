@@ -8,7 +8,6 @@
     "name": "fkooman/php-saml-metadata-parser", 
     "require": {
         "fkooman/php-cert-parser": "0.1.*", 
-        "guzzle/guzzle": "3.7.*", 
         "php": ">=5.3.3"
     }
 }
