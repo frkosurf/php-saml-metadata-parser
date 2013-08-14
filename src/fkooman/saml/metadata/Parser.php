@@ -22,7 +22,7 @@ class Parser
     {
         $md = array(
             "SingleSignOnService" => array(),
-            "certData" => array()
+            "keys" => array()
         );
 
         $result = $this->md->xpath('//md:EntityDescriptor[@entityID="' . $entityId . '"]/md:IDPSSODescriptor/md:SingleSignOnService');
@@ -43,10 +43,25 @@ class Parser
         }
 
         foreach ($result as $cd) {
-            if (!isset($cd['use']) || "signing" == $cd['use']) {
-                $certData = new CertParser((string) $cd->children("http://www.w3.org/2000/09/xmldsig#")->KeyInfo->X509Data->X509Certificate);
-                array_push($md['certData'], $certData->toBase64());
+            $key = array(
+                "type" => "X509Certificate",
+                "X509Certificate" => null,
+                "encryption" => false,
+                "signing" => false
+            );
+
+            if (!isset($cd['use'])) {
+                $key['encryption'] = true;
+                $key['signing'] = true;
+            } else {
+                $use = (string) $cd['use'];
+                $key[$use] = true;
             }
+
+            $certData = new CertParser((string) $cd->children("http://www.w3.org/2000/09/xmldsig#")->KeyInfo->X509Data->X509Certificate);
+            $key['X509Certificate'] = $certData->toBase64();
+
+            array_push($md['keys'], $key);
         }
 
         return $md;
