@@ -1,11 +1,11 @@
 {
-    "name": "fkooman/php-saml-metadata-parser", 
-
     "autoload": {
         "psr-0": {
             "fkooman\\saml\\metadata\\": "src/"
         }
-    },
+    }, 
+    "license": "Apache-2.0", 
+    "name": "fkooman/php-saml-metadata-parser", 
     "require": {
         "fkooman/php-cert-parser": "0.1.*", 
         "guzzle/guzzle": "3.7.*", 

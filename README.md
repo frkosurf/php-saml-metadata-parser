@@ -16,3 +16,8 @@ To use this library, a simple API is available:
 You will have access to the `keys`, `SingleSignOnService` keys in case of and
 IdP. In case of an SP (`getSp("http://sp.example.org/")`) you will have access 
 to the `AssertionConsumerService` key.
+
+# License
+Licensed under the Apache License, Version 2.0;
+
+   http://www.apache.org/licenses/LICENSE-2.0
