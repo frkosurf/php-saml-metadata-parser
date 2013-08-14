@@ -1,0 +1,14 @@
+{
+    "name": "fkooman/php-saml-metadata-parser", 
+
+    "autoload": {
+        "psr-0": {
+            "fkooman\\saml\\metadata\\": "src/"
+        }
+    },
+    "require": {
+        "fkooman/php-cert-parser": "0.1.*", 
+        "guzzle/guzzle": "3.7.*", 
+        "php": ">=5.3.3"
+    }
+}

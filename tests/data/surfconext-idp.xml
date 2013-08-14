@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" validUntil="2013-08-15T08:45:32Z" entityID="https://engine.surfconext.nl/authentication/idp/metadata" ID="CORTOb896b7664592198a0617be9506e59f9c53d6ed41"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI="#CORTOb896b7664592198a0617be9506e59f9c53d6ed41"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>R/tYBL6CIHD/al/j/bF/6l6U7HM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>FHp3YdvspssftunzGJeHvm8T9ed+wJvzRfnd6S+twRTcFHJGQAy9V+IA0HX0xgm9Xr/1QIw7RLqSIwAl2UftUhbYztBHzCcrhGvjb1m80GH6zfzm8bwxQu/yj++RwIDU1t9vaZJCtpilUd/jtlTxdN8vVS7tkcKUEW+d9UtAfj0D88uD9jJBWIVnhSbSlg01TGFJrcOP4K/+kN0aiXmiPlZnd/AzCBG99Hz2XGCFRFFYx508bhvyAoMyxNI2/GU04J/YBb2XVWEzT4NcaZkeMkJFUaChyLchfHNSeH0A/SsN62edxtZcDJ54QeStKBO4KgMkDhbwzB1lZlrfMixVGQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAMzixtXMUH1NMA0GCSqGSIb3DQEBBQUAMHwxCzAJBgNV
+BAYTAk5MMRAwDgYDVQQIDAdVdHJlY2h0MRAwDgYDVQQHDAdVdHJlY2h0MRUwEwYD
+VQQKDAxTVVJGbmV0IEIuVi4xEzARBgNVBAsMClNVUkZjb25leHQxHTAbBgNVBAMM
+FGVuZ2luZS5zdXJmY29uZXh0Lm5sMB4XDTExMDEyNDEwMTg1N1oXDTIxMDEyMzEw
+MTg1N1owfDELMAkGA1UEBhMCTkwxEDAOBgNVBAgMB1V0cmVjaHQxEDAOBgNVBAcM
+B1V0cmVjaHQxFTATBgNVBAoMDFNVUkZuZXQgQi5WLjETMBEGA1UECwwKU1VSRmNv
+bmV4dDEdMBsGA1UEAwwUZW5naW5lLnN1cmZjb25leHQubmwwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDMJ6v+f3owS3KR5IXSil+3XFwGvCVeYx3jDOFK
+AnwvXlDpTu+t730b8/spHtlopyJVAlb6qBIPN7R4TGTLqiu0zebYsYx/PtqCk5cb
+u9qs3h+p2BBoTXVwXA/ZYi0tqtxp04hcNrRj1TAgLyC0S+KASTF+zzccAcjTBid5
+EMioo+YllgSEobWJ4X33XVRqNrikAPDsNmDrdKUi257JSO2xhVIG5lbtmDaL5ORC
+D56oRmVdp7VQTEQ3Yass8J5Rn+Ub6WmRBYeG+KzFBvtyBput2o0/gvtJn9L+NWeD
+B0LyUPaUYG/X4GF14FcmFQfz7I5jBCNHtPcLJbPYbZKQNhz/AgMBAAGjUDBOMB0G
+A1UdDgQWBBS9QqP8gtMM6nm4oYzNbgqhEDP1aDAfBgNVHSMEGDAWgBS9QqP8gtMM
+6nm4oYzNbgqhEDP1aDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBH
+2qyYwLwesIOxUTj+NJ0VXRBDH8VecNLiUUs9Np4x8A0pxLvlNnv5TdJAruEg1LSV
+mAqqPUdAB2m7CKDeUVM9cwOB7vqelV2GNgOfevXi+DZRMffyyE8qyIcnTqvDOgcR
+8qGTPSVT+SIsOkV9bYrjltrbnal7cJermsA8SC5w/pjLaOHI1xIZHquZzymWoN3Z
+fz2CQg2r5o+AURYd74GrHhHqVa9VrdWtcimB+vTQQihoLt8YciehpJjOMpx2D66e
+FfpC8ix31RRdjAVIo1y33h1yU3gEHePDbOthZE+lpXi2WJqO85H85LqJOtgn2WPI
+3P2Tx32Cq1WXCYkxLaPI
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:Extensions><mdui:UIInfo><mdui:DisplayName xml:lang="nl">SURFconext</mdui:DisplayName><mdui:DisplayName xml:lang="en">SURFconext</mdui:DisplayName><mdui:Description xml:lang="nl">SURFconext</mdui:Description><mdui:Description xml:lang="en">SURFconext</mdui:Description><mdui:Logo height="44" width="108">https://static.surfconext.nl/media/idp/surfnet.png</mdui:Logo><mdui:Keywords xml:lang="nl">SURFconext</mdui:Keywords><mdui:Keywords xml:lang="en">SURFconext</mdui:Keywords></mdui:UIInfo></md:Extensions><md:KeyDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" use="signing"><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDyzCCArOgAwIBAgIJAMzixtXMUH1NMA0GCSqGSIb3DQEBBQUAMHwxCzAJBgNV
+BAYTAk5MMRAwDgYDVQQIDAdVdHJlY2h0MRAwDgYDVQQHDAdVdHJlY2h0MRUwEwYD
+VQQKDAxTVVJGbmV0IEIuVi4xEzARBgNVBAsMClNVUkZjb25leHQxHTAbBgNVBAMM
+FGVuZ2luZS5zdXJmY29uZXh0Lm5sMB4XDTExMDEyNDEwMTg1N1oXDTIxMDEyMzEw
+MTg1N1owfDELMAkGA1UEBhMCTkwxEDAOBgNVBAgMB1V0cmVjaHQxEDAOBgNVBAcM
+B1V0cmVjaHQxFTATBgNVBAoMDFNVUkZuZXQgQi5WLjETMBEGA1UECwwKU1VSRmNv
+bmV4dDEdMBsGA1UEAwwUZW5naW5lLnN1cmZjb25leHQubmwwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDMJ6v+f3owS3KR5IXSil+3XFwGvCVeYx3jDOFK
+AnwvXlDpTu+t730b8/spHtlopyJVAlb6qBIPN7R4TGTLqiu0zebYsYx/PtqCk5cb
+u9qs3h+p2BBoTXVwXA/ZYi0tqtxp04hcNrRj1TAgLyC0S+KASTF+zzccAcjTBid5
+EMioo+YllgSEobWJ4X33XVRqNrikAPDsNmDrdKUi257JSO2xhVIG5lbtmDaL5ORC
+D56oRmVdp7VQTEQ3Yass8J5Rn+Ub6WmRBYeG+KzFBvtyBput2o0/gvtJn9L+NWeD
+B0LyUPaUYG/X4GF14FcmFQfz7I5jBCNHtPcLJbPYbZKQNhz/AgMBAAGjUDBOMB0G
+A1UdDgQWBBS9QqP8gtMM6nm4oYzNbgqhEDP1aDAfBgNVHSMEGDAWgBS9QqP8gtMM
+6nm4oYzNbgqhEDP1aDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBQUAA4IBAQBH
+2qyYwLwesIOxUTj+NJ0VXRBDH8VecNLiUUs9Np4x8A0pxLvlNnv5TdJAruEg1LSV
+mAqqPUdAB2m7CKDeUVM9cwOB7vqelV2GNgOfevXi+DZRMffyyE8qyIcnTqvDOgcR
+8qGTPSVT+SIsOkV9bYrjltrbnal7cJermsA8SC5w/pjLaOHI1xIZHquZzymWoN3Z
+fz2CQg2r5o+AURYd74GrHhHqVa9VrdWtcimB+vTQQihoLt8YciehpJjOMpx2D66e
+FfpC8ix31RRdjAVIo1y33h1yU3gEHePDbOthZE+lpXi2WJqO85H85LqJOtgn2WPI
+3P2Tx32Cq1WXCYkxLaPI
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:unspecified</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://engine.surfconext.nl/authentication/idp/single-sign-on"/></md:IDPSSODescriptor><md:Organization><md:OrganizationName xml:lang="en">SURFnet BV</md:OrganizationName><md:OrganizationDisplayName xml:lang="en">SURFnet</md:OrganizationDisplayName><md:OrganizationURL xml:lang="en">http://www.surfnet.nl</md:OrganizationURL></md:Organization><md:ContactPerson contactType="administrative"><md:GivenName>SURFconext-beheer</md:GivenName><md:EmailAddress>SURFconext-beheer@surfnet.nl</md:EmailAddress></md:ContactPerson><md:ContactPerson contactType="technical"><md:GivenName>SURFconext-beheer</md:GivenName><md:EmailAddress>SURFconext-beheer@surfnet.nl</md:EmailAddress></md:ContactPerson><md:ContactPerson contactType="support"><md:GivenName>SURFconext support</md:GivenName><md:EmailAddress>help@surfconext.nl</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>
