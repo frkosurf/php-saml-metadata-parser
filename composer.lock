@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a0cb5b2434d1aacc500adedd96bbde98",
+    "hash": "f74f4c01c18d7fb2a3ebca86cba72ccc",
     "packages": [
         {
             "name": "fkooman/php-cert-parser",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fkooman/php-cert-parser.git",
-                "reference": "0.1.4"
+                "reference": "932e119373904eba6457daa8420f4c5d48de8c38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fkooman/php-cert-parser/zipball/0.1.4",
-                "reference": "0.1.4",
+                "url": "https://api.github.com/repos/fkooman/php-cert-parser/zipball/932e119373904eba6457daa8420f4c5d48de8c38",
+                "reference": "932e119373904eba6457daa8420f4c5d48de8c38",
                 "shasum": ""
             },
             "require": {

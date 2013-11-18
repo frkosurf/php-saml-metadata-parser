@@ -5,7 +5,7 @@
         }
     }, 
     "license": "Apache-2.0", 
-    "name": "fkooman/php-saml-metadata-parser", 
+    "name": "frkosurf/php-saml-metadata-parser", 
     "require": {
         "fkooman/php-cert-parser": "0.1.*", 
         "php": ">=5.3.3"
